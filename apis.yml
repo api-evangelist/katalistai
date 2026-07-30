@@ -1,7 +1,16 @@
 aid: katalistai
 name: KatalistAI
-description: KatalistAI is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Katalist is an AI-powered storyboarding and video platform that turns scripts
+  and ideas into visual stories with consistent characters and scenes. Founded in
+  2023, it converts scripts (CSV, Word, PowerPoint) into storyboards in one click,
+  keeps characters consistent across shots, lets creators customize framing,
+  angles, poses and scenes, and includes a video studio that layers voiceover,
+  music and sound effects. It targets filmmakers, directors, advertisers, content
+  creators, animators and educators looking to move from concept to visualized
+  story faster. Backed by 500 Global, Katalist is a consumer/creative generative-AI
+  SaaS accessed through its web application; it does not currently publish a public
+  developer API, OpenAPI definition, or developer documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/katalistai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +18,31 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://cdn.prod.website-files.com/6468ed584d728a73522a74ce/65ad18b2ad020b9b39255b41_Katalist.svg
 tags:
 - Company
+- Artificial Intelligence
+- Generative AI
+- Storyboarding
+- Video
+- Content Creation
+- Filmmaking
+- Creative Tools
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,20 @@ maintainers:
 common:
 - type: Website
   url: https://katalist.ai
+- type: SignUp
+  url: https://app.katalist.ai/
+- type: Pricing
+  url: https://katalist.ai/katalist-pricing
+- type: Blog
+  url: https://katalist.ai/blog
+- type: Support
+  url: https://help.katalist.ai
+- type: PrivacyPolicy
+  url: https://katalist.ai/privacy-policy
+- type: DomainSecurity
+  url: security/katalistai-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
