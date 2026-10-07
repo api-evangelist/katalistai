@@ -1,0 +1,64 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.katalist.ai/katalist-pricing
+sources:
+- https://www.katalist.ai/katalist-pricing
+- https://katalist.ai/katalist-pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: tiered-subscription
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+  managed_tier: Essential
+published: true
+note: Consumer/business creative AI tool; 7 day free trial; API access only on Enterprise.
+plan_count: 7
+currency: USD
+plans:
+- name: Essential (monthly)
+  price_text: $19.00
+  price: 19
+  currency: USD
+  period: month
+  included_quota: 200 image credits / mo. 700 video credits / mo.
+- name: Pro (monthly)
+  price_text: $39.00 /month
+  price: 39
+  currency: USD
+  period: month
+  included_quota: 700 image credits / mo. 1500 video credits / mo.
+- name: Unlimited (monthly)
+  price_text: $99.00 /month
+  price: 99
+  currency: USD
+  period: month
+  included_quota: Unlimited image generations, 3000 video credits / mo., 2 seats included
+- name: Enterprise
+  price_text: Contact Us
+  period: none
+  included_quota: Unlimited Users, API Access
+- name: Essential (annual)
+  price_text: $29.00 / month
+  price: 29
+  currency: USD
+  period: month
+  included_quota: 200 image credits/month; $348 Billed annualy
+- name: Pro (annual)
+  price_text: $31.00 /month
+  price: 31
+  currency: USD
+  period: month
+  included_quota: 700 image credits/month; $374 Billed annualy
+- name: Unlimited (annual)
+  price_text: $79.00 /month for 2 users
+  price: 79
+  currency: USD
+  period: month
+  unit: 2 users
+  included_quota: Unlimited image generations; $948 Billed annualy
